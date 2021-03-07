@@ -1,4 +1,4 @@
-## 1. Samat Tulepbayev
+1. ## Samat Tulepbayev
 
 2. **Cell phone:** +7-777-752-3834
 
