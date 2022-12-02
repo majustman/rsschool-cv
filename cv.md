@@ -39,7 +39,7 @@
 
    _Moscow Aviation Institute_ bachelor degree in _Automated systems of information processing_
 
-   _Alem school_ student since May 2020
+   [Alem School](https://alem.school/) student since May 2020
 
    [How to Create A Website: An HTML Tutorial and CSS Tutorial](https://www.udemy.com/course/html-tutorial/) (95% complete)
 
