@@ -14,7 +14,7 @@
 
    **Priorities** are practical learning, become a member of coding socium in order to learn fast
 
-   **Advantage** is that I have a few experience in coding. It should make the process of learning easier for me.
+   **Advantage** I have a few experience in coding. It should make the process of learning easier for me.
 
 4. **Skills** Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.
 
