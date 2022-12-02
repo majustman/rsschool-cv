@@ -1,20 +1,18 @@
 1. ## Samat Tulepbayev
 
-2. **Cell phone:** +7-777-752-3834
+2. **Cell phone:** +7-777-752-38-34
 
    **Email:** samatt90@gmail.com
 
-   **GITHUB** samatt90
+   **GITHUB** majustman
 
-3. **Goal** for now is to learn coding (backend, frontend, mobile app and etc.) to define which area suits for me most.
+3. **Goal** for now is to learn coding (backend, frontend) to define which area suits for me most.
 
-   **Priorities** are practical learning, become a member of coding socium in order to lern fast
+   **Priorities** are practical learning, become a member of coding socium in order to learn fast
 
-   **Advantage** is that I am quite confident user of PC and good at math. It shouldm make the process of learning easier for me.
+   **Advantage** is that I am quite confident user of PC and good at math. It should make the process of learning easier for me.
 
-   **Work experience** - I don't have work experience in coding yet. But I have a strong motivation to learn this field, as I want to get more independency from the economic situation in our countries. And the IT is one of the proffessions which extends your horizonts. I can't say that I am fast learner, but I will do my best.
-
-4. **Skills** Basic knoweldge in Go, HTML, CSS, JS
+4. **Skills** Basic knoweldge in Golang, HTML, CSS, JS
 
 5. **Example of code**
 
@@ -33,7 +31,7 @@
    }
    ```
 
-6. **Work experience**
+6. **Work experience** Have experience as Backend Developer on Golang for half a year. 
 
 7. **Education**
 
