@@ -1,3 +1,5 @@
+![](/picture/photo.JPG)
+
 1. ## Samat Tulepbayev
 
 2. **Cell phone:** +7-777-752-38-34
@@ -6,13 +8,13 @@
 
    **GITHUB** majustman
 
-3. **Goal** for now is to learn coding (backend, frontend) to define which area suits for me most.
+3. **Goal** for now is to learn coding (backend, frontend) to become fullstack developer.
 
    **Priorities** are practical learning, become a member of coding socium in order to learn fast
 
-   **Advantage** is that I am quite confident user of PC and good at math. It should make the process of learning easier for me.
+   **Advantage** is that I have a few experience in coding. It should make the process of learning easier for me.
 
-4. **Skills** Basic knoweldge in Golang, HTML, CSS, JS
+4. **Skills** Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.
 
 5. **Example of code**
 
