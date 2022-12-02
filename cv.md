@@ -7,7 +7,7 @@
    **Email:** samatt90@gmail.com
 
    **GITHUB** majustman
-   
+
    **Discord** majustman
 
 3. **Goal** for now is to learn coding (backend, frontend) to become fullstack developer.
@@ -43,7 +43,7 @@
    }
    ```
 
-6. **Work experience** Have experience as Backend Developer on Golang for half a year. 
+6. **Work experience** Have experience as Backend Developer on Golang for half a year. Project was a telegramBot on private repository on GitLab.
 
 7. **Education**
 
