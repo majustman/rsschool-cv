@@ -34,6 +34,14 @@
    }
    ```
 
+   **JavaScript**
+
+   ```js
+   function multiply(a, b){
+      return a * b
+   }
+   ```
+
 6. **Work experience** Have experience as Backend Developer on Golang for half a year. 
 
 7. **Education**
