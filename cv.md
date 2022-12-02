@@ -7,6 +7,7 @@
    **Email:** samatt90@gmail.com
 
    **GITHUB** majustman
+   **Discord** majustman
 
 3. **Goal** for now is to learn coding (backend, frontend) to become fullstack developer.
 
