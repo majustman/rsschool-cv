@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-        <div class="container image">
+    <div class="center">
+        <div class="center image">
             <img src="picture/photo.jpg" alt="photo">
         </div>
-        <div class="container">
+        <div class="center">
             <ol>
                 <li><h2>Samat Tulepbayev</h2></li>
                 
@@ -39,27 +39,27 @@
                     <p><b>Golang</b></p>
                     
                     <pre>
-                    <code>
-                        func (s *server) newClient(conn net.Conn) {
-                            log.Printf("new client has connected: %s", conn.RemoteAddr().String())
+                    <code class="center code">
+    func (s *server) newClient(conn net.Conn) {
+        log.Printf("new client has connected: %s", conn.RemoteAddr().String())
                          
-                            c := &client{
-                                conn:     conn,
-                                nick:     "anonymous",
-                                commands: s.commands,
-                            }
-                            c.readInput()
-                            }
+        c := &client{
+            conn:     conn,
+            nick:     "anonymous",
+            commands: s.commands,
+        }
+        c.readInput()
+    }
                     </code>
                     </pre>
                     
                     <p><b>JavaScript</b></p>
                     
                     <pre>
-                    <code>
-                        function multiply(a, b){
-                            return a * b
-                        }
+                    <code class="center">
+    function multiply(a, b){
+        return a * b
+    }
                     </code>   
                     </pre>
                 </li>
