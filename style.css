@@ -1,0 +1,12 @@
+.center {
+    margin: auto;
+    width: 80%;
+}
+
+.image {
+    max-width: fit-content;
+}
+
+.code {
+    padding-left: 0;
+}
