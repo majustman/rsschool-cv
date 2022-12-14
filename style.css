@@ -1,12 +1,21 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: 'Roboto';
+}
+
 .center {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .image {
-    max-width: fit-content;
+  max-width: fit-content;
 }
 
 .code {
-    padding-left: 0;
+  padding-left: 0;
 }
