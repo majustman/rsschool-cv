@@ -15,85 +15,92 @@
 </head>
 
 <body>
-  <header class="header"></header>
-  <main class="main"></main>
-  <div class="center">
-    <div class="center image">
+  <header class="header">
+    <div class="container"></div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="container image">
         <img src="assets/img/photo.jpg" alt="photo">
-    </div>
-    <div class="center">
+      </div>
+      <div class="container">
         <ol>
-            <li><h2>Samat Tulepbayev</h2></li>
-
-            <li><div class="contacts">
-                <ul>
-                    <li><b>Cell Phone: </b>+7-777-752-38-34</li>
-                    <li><b>Email: </b>samatt90@gmail.com</li>
-                    <li><b>GITHUB: </b>majustman</li>
-                    <li><b>Discord: </b>majustman</li>
-                    </ul>
-            </div></li>
-
-            <li>
-                <p><b>Goal </b>for now is to learn coding (backend, frontend) to become fullstack developer.</p>
-                <p><b>Priorities </b>are practical learning, become a member of coding socium in order to learn fast.</p>
-                <p><b>Advantage </b>I have a few experience in coding. It should make the process of learning easier for me.</p>
-            </li>
-
-            <li><b>Skills </b>Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.</li>
-
-            <li>
-                <p><b>Example of code</b></p>
-
-                <p><b>Golang</b></p>
-
-                <pre>
-                <code class="center code">
-    func (s *server) newClient(conn net.Conn) {
-        log.Printf("new client has connected: %s", conn.RemoteAddr().String())
-
-        c := &amp;client{
-            conn:     conn,
-            nick:     "anonymous",
-            commands: s.commands,
+          <li><h2>Samat Tulepbayev</h2></li>
+    
+          <li>
+            <div class="contacts">
+              <ul>
+                <li><b>Cell Phone: </b>+7-777-752-38-34</li>
+                <li><b>Email: </b>samatt90@gmail.com</li>
+                <li><b>GITHUB: </b>majustman</li>
+                <li><b>Discord: </b>majustman</li>
+              </ul>
+            </div>
+          </li>
+    
+          <li>
+            <p><b>Goal </b>for now is to learn coding (backend, frontend) to become fullstack developer.</p>
+            <p><b>Priorities </b>are practical learning, become a member of coding socium in order to learn fast.</p>
+            <p><b>Advantage </b>I have a few experience in coding. It should make the process of learning easier for me.</p>
+          </li>
+    
+          <li><b>Skills </b>Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.</li>
+    
+          <li>
+            <p><b>Example of code</b></p>
+    
+            <p><b>Golang</b></p>
+    
+            <pre>
+              <code class="container code">
+        func (s *server) newClient(conn net.Conn) {
+            log.Printf("new client has connected: %s", conn.RemoteAddr().String())
+    
+            c := &amp;client{
+                conn:     conn,
+                nick:     "anonymous",
+                commands: s.commands,
+            }
+            c.readInput()
         }
-        c.readInput()
-    }
-                </code>
-                </pre>
-
-                <p><b>JavaScript</b></p>
-
-                <pre>
-                <code class="center">
-    function multiply(a, b){
-        return a * b
-    }
-                </code>
-                </pre>
-            </li>
-
-            <li><b>Work experience </b>
-                Have experience as Backend Developer on Golang for half a year.
+              </code>
+            </pre>
+    
+            <p><b>JavaScript</b></p>
+    
+            <pre>
+              <code class="container">
+        function multiply(a, b){
+            return a * b
+        }
+              </code>
+            </pre>
+          </li>
+    
+          <li><b>Work experience </b>
+                 Have experience as Backend Developer on Golang for half a year.
                  Project was a telegramBot on private repository on GitLab.
-            </li>
-
-            <li>
-                <p><b>Education</b></p>
-
-                <p><i>Moscow Aviation Institute </i>bachelor degree in
-                    <i>Automated systems of information processing</i></p>
-                <p><a href="https://alem.school/">Alem school</a> student since May 2020</p>
-                <p><a href="https://www.udemy.com/course/html-tutorial/">
-                    How to Create A Website: An HTML Tutorial and CSS Tutorial</a> 95% complete</p>
-                <p><a href="https://www.udemy.com/course/go-programming-language/">
-                    Web Development w/ Google’s Go (golang) Programming Language</a> 45% complete</p>
-            </li>
-
-            <li><b>English language </b>Intermediate level, IELTS 6.5 (expired)</li>
+          </li>
+    
+          <li>
+            <p><b>Education</b></p>
+    
+            <p><i>Moscow Aviation Institute </i>bachelor degree in
+              <i>Automated systems of information processing</i>
+            </p>
+            <p><a href="https://alem.school/">Alem school</a> student since May 2020</p>
+            <p><a href="https://www.udemy.com/course/html-tutorial/">
+                    How to Create A Website: An HTML Tutorial and CSS Tutorial
+                </a> 95% complete</p>
+            <p><a href="https://www.udemy.com/course/go-programming-language/">
+                        Web Development w/ Google’s Go (golang) Programming Language</a> 45% complete</p>
+          </li>
+    
+          <li><b>English language </b>Intermediate level, IELTS 6.5 (expired)</li>
         </ol>
+      </div>
     </div>
-  </div>
+  </main>
   <footer class="footer">
     &copy; 2022 majustman
   </footer>

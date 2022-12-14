@@ -18,9 +18,9 @@ body {
     border: 2px solid red;
 }
 
-.center {
-  margin: auto;
-  width: 80%;
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .image {
