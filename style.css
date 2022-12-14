@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto';
 }
 
+.header .main .footer {
+    border: 2px solid red;
+}
+
 .center {
   margin: auto;
   width: 80%;
