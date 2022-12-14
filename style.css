@@ -9,6 +9,9 @@
 
 body {
   font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header .main .footer {
