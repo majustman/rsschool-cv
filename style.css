@@ -114,6 +114,15 @@ body {
   max-width: fit-content;
 }
 
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-img {
+  width: 32px;
+  height: 32px;
+}
+
 .code {
   padding-left: 0;
 }
