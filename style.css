@@ -13,9 +13,21 @@ html {
 
 body {
   font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5e0d0d;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
 }
 
 .main, .footer {
