@@ -63,34 +63,17 @@
 
       <section class="section section-code" id="code">
         <h2 class="section-title">Code</h2>
-        <p><b>Example of code</b></p>
 
         <p><b>Golang</b></p>
 
         <pre>
           <code class="container code">
-        func (s *server) newClient(conn net.Conn) {
-            log.Printf("new client has connected: %s", conn.RemoteAddr().String())
-
-            c := &amp;client{
+        c := &amp;client{
                 conn:     conn,
                 nick:     "anonymous",
                 commands: s.commands,
             }
-            c.readInput()
-        }
           </code>
-        </pre>
-
-        <p><b>JavaScript</b></p>
-
-        <pre>
-          <code class="container">
-        function multiply(a, b){
-            return a * b
-        }
-          </code>
-        </pre>
       </section>
 
       <section class="section section-courses" id="courses">
