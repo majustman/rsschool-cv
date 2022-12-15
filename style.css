@@ -27,7 +27,17 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #10519b;
+}
+
+.link {
+  text-decoration: none;
+  color: #5e0d0d;
+  transition: font-weigh 1s;
+}
+
+.link:hover {
+  font-weight: bold;
 }
 
 .main, .footer {
@@ -35,7 +45,7 @@ body {
 }
 
 .header {
-  background-color:darkgrey;
+  background-color:rgb(118, 112, 190);
 }
 
 .container {
@@ -55,6 +65,7 @@ body {
   line-height: 10px;
   text-decoration: none;
   color: white;
+  transition: font-weight 0.5s;
 }
 
 .nav-link:hover {
