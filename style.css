@@ -18,8 +18,12 @@ body {
   justify-content: space-between;
 }
 
-.header, .main, .footer {
+.main, .footer {
     border: 2px solid red;
+}
+
+.header {
+  background-color:darkgrey;
 }
 
 .container {
@@ -32,6 +36,13 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .image {
