@@ -20,6 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
 }
 
 .section-title {
@@ -40,11 +41,7 @@ body {
   font-weight: bold;
 }
 
-.main, .footer {
-    border: 2px solid red;
-}
-
-.header {
+.header, .footer {
   background-color:rgb(118, 112, 190);
 }
 
@@ -119,4 +116,21 @@ body {
 
 .code {
   padding-left: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-location {
+  display: flex;
+  justify-content: stretch;
+}
+
+.footer-location-img {
+  width: 32px;
+  height: 32px;
+  color: #5e0d0d;
+  align-self: center
 }
