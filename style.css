@@ -23,6 +23,13 @@ body {
   max-width: 1440px;
 }
 
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
 .image {
   max-width: fit-content;
 }
