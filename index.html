@@ -32,47 +32,43 @@
     </div>
   </header>
   <main class="main">
-    <div class="container">
-      <div class="container image">
+    <div class="container main-container">
+
+      <section class="section section-profile" id="profile">
         <img src="assets/img/photo.jpg" alt="photo">
-      </div>
-      <div class="container">
-        <ol>
-          <li><h2>Samat Tulepbayev</h2></li>
+        <h1 class="section-title">Samat Tulepbayev</h1>
+      </section>
 
-          <li>
-            <div id="contacts" class="contacts">
-              <ul>
-                <li><b>Cell Phone: </b>+7-777-752-38-34</li>
-                <li><b>Email: </b>samatt90@gmail.com</li>
-                <li><b>GITHUB: </b>majustman</li>
-                <li><b>Discord: </b>majustman</li>
-              </ul>
-            </div>
-          </li>
+      <section class="section section-contacts" id="contacts">
+        <h2 class=".section-title">Contacts</h2>
+        <ul>
+          <li><b>Cell Phone: </b>+7-777-752-38-34</li>
+            <li><b>Email: </b>samatt90@gmail.com</li>
+            <li><b>GITHUB: </b>majustman</li>
+            <li><b>Discord: </b>majustman</li>
+          </ul>
+      </section>
 
-          <li>
-            <section id="summary" class="summary">
-              <p><b>Goal </b>for now is to learn coding (backend, frontend) to become fullstack developer.</p>
-              <p><b>Priorities </b>are practical learning, become a member of coding socium in order to learn fast.</p>
-              <p><b>Advantage </b>I have a few experience in coding. It should make the process of learning easier for me.</p>
-            </section>
-          </li>
+      <section class="section section-summary" id="summary">
+        <h2 class=".section-title">Summary</h2>
+        <p><b>Goal </b>for now is to learn coding (backend, frontend) to become fullstack developer.</p>
+        <p><b>Priorities </b>are practical learning, become a member of coding socium in order to learn fast.</p>
+        <p><b>Advantage </b>I have a few experience in coding. It should make the process of learning easier for me.</p>
+      </section>
 
-          <li>
-            <section id="skills" class="skills">
-              <b>Skills </b>Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.
-            </section>
-          </li>
+      <section class="section section-skills" id="skills">
+        <h2 class=".section-title">Skills</h2>
+        Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.
+      </section>
 
-          <li>
-            <section id="code" class="code">
-              <p><b>Example of code</b></p>
+      <section class="section section-code" id="code">
+        <h2 class=".section-title">Code</h2>
+        <p><b>Example of code</b></p>
 
-              <p><b>Golang</b></p>
+        <p><b>Golang</b></p>
 
-              <pre>
-                <code class="container code">
+        <pre>
+          <code class="container code">
         func (s *server) newClient(conn net.Conn) {
             log.Printf("new client has connected: %s", conn.RemoteAddr().String())
 
@@ -83,57 +79,53 @@
             }
             c.readInput()
         }
-                </code>
-              </pre>
+          </code>
+        </pre>
 
-              <p><b>JavaScript</b></p>
+        <p><b>JavaScript</b></p>
 
-              <pre>
-                <code class="container">
+        <pre>
+          <code class="container">
         function multiply(a, b){
             return a * b
         }
-                </code>
-              </pre>
-            </section> 
-          </li>
+          </code>
+        </pre>
+      </section>
 
-          <li>
-            <section id="courses" class="courses">
-              <p>Courses</p>
-              <p><a href="https://alem.school/">Alem school</a> student since May 2020</p>
-              <p><a href="https://www.udemy.com/course/html-tutorial/">
-                      How to Create A Website: An HTML Tutorial and CSS Tutorial
-                  </a> 95% complete</p>
-              <p><a href="https://www.udemy.com/course/go-programming-language/">
-                          Web Development w/ Google’s Go (golang) Programming Language</a> 45% complete</p>
-            </section>
-          </li>
+      <section class="section section-courses" id="courses">
+        <h2 class=".section-title">Courses</h2>
+        <p><a href="https://alem.school/">Alem school</a> student since May 2020</p>
+        <p>
+          <a href="https://www.udemy.com/course/html-tutorial/">
+            How to Create A Website: An HTML Tutorial and CSS Tutorial
+          </a> 95% complete
+        </p>
+        <p>
+          <a href="https://www.udemy.com/course/go-programming-language/">
+            Web Development w/ Google’s Go (golang) Programming Language
+          </a> 45% complete
+        </p>
+      </section>
 
-          <li>
-            <section id="projects" class="projects">
-              <b>Work experience </b>
-                 Have experience as Backend Developer on Golang for half a year.
-                 Project was a telegramBot on private repository on GitLab.
-            </section>
-          </li>
+      <section class="section section-projects" id="projects">
+        <h2 class=".section-title">Work experience</h2>
+          Have experience as Backend Developer on Golang for half a year.
+          Project was a telegramBot on private repository on GitLab.
+      </section>
 
-          <li>
-            <section id="education" class="education">
-              <p><b>Education</b></p>
+      <section class="section section-education" id="education">
+        <h2 class=".section-title">Education</h2>
   
-              <p><i>Moscow Aviation Institute </i>bachelor degree in
-                <i>Automated systems of information processing</i>
-              </p>
-            </section>
-          </li>
+        <p><i>Moscow Aviation Institute </i>bachelor degree in
+          <i>Automated systems of information processing</i>
+        </p>
+      </section>
 
-          <li>
-            <section id="english" class="english">
-              <b>English language </b>Intermediate level, IELTS 6.5 (expired)</li>
-            </section>
-        </ol>
-      </div>
+      <section class="section section-english" id="english">
+        <h2 class=".section-title">English</h2>
+        Intermediate level, IELTS 6.5 (expired)
+      </section>
     </div>
   </main>
   <footer class="footer">
