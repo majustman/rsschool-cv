@@ -89,6 +89,28 @@ body {
 
 .section-profile {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-profile {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .container-profile {
+    width: 100%;
+  }
+}
+
+.container-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title, .subtitle {
+  text-align: center;
 }
 
 .image {
