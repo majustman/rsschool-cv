@@ -76,6 +76,7 @@ body {
 
 .section {
   width: 50%;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -149,6 +150,7 @@ body {
 .footer-location {
   display: flex;
   justify-content: stretch;
+  padding-right: 20px;
 }
 
 .footer-location-img {
@@ -156,4 +158,8 @@ body {
   height: 32px;
   color: #5e0d0d;
   align-self: center
+}
+
+.footer-paragraph {
+  padding-left: 20px;
 }
