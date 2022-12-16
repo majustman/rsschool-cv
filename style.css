@@ -118,9 +118,23 @@ body {
   list-style: none;
 }
 
+.contacts-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  line-height: 2;
+}
+
+.contacts-text {
+  text-align: center;
+  align-self: center;
+  margin-left: 10px;
+}
+
 .contacts-img {
   width: 32px;
   height: 32px;
+  align-self: center;
 }
 
 .code {
