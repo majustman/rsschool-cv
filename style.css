@@ -12,15 +12,21 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: #5e0d0d;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
+}
+
+.header,
+.main,
+.footer {
+  padding: 0 20px;
 }
 
 .section-title {
@@ -33,7 +39,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: #5e0d0d;
+  /* color: #5e0d0d; */
   transition: font-weigh 1s;
 }
 
@@ -62,7 +68,7 @@ body {
   padding: 0 20px;
   line-height: 10px;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   transition: font-weight 0.5s;
 }
 
@@ -87,9 +93,9 @@ body {
 }
 
 .section-profile {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .container-profile {
@@ -129,9 +135,9 @@ body {
 }
 
 .contacts-text {
+  margin-left: 10px;
   text-align: center;
   align-self: center;
-  margin-left: 10px;
 }
 
 .contacts-img {
@@ -147,12 +153,13 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  color: #000000;
 }
 
-.footer-location {
+.footer-container {
   display: flex;
   justify-content: stretch;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 
 .footer-location-img {
@@ -162,6 +169,8 @@ body {
   align-self: center
 }
 
-.footer-paragraph {
-  padding-left: 20px;
+.footer-link {
+  align-self: center;
+  text-decoration: none;
+  color: #000000;
 }
