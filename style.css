@@ -41,7 +41,8 @@ body {
   font-weight: bold;
 }
 
-.header, .footer {
+.header,
+.footer {
   background-color:rgb(118, 112, 190);
 }
 
@@ -107,7 +108,8 @@ body {
   align-items: center;
 }
 
-.section-title, .subtitle {
+.section-title,
+.subtitle {
   text-align: center;
 }
 
