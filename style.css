@@ -1,12 +1,180 @@
-.center {
-    margin: auto;
-    width: 80%;
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5e0d0d;
+}
+
+.header,
+.main,
+.footer {
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #10519b;
+}
+
+.link {
+  text-decoration: none;
+  /* color: #5e0d0d; */
+  transition: font-weigh 1s;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+.header,
+.footer {
+  background-color:rgb(118, 112, 190);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: font-weight 0.5s;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-profile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container-profile {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .container-profile {
+    width: 100%;
+  }
+}
+
+.container-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title,
+.subtitle {
+  text-align: center;
 }
 
 .image {
-    max-width: fit-content;
+  max-width: fit-content;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  line-height: 2;
+}
+
+.contacts-text {
+  margin-left: 10px;
+  text-align: center;
+  align-self: center;
+}
+
+.contacts-img {
+  width: 32px;
+  height: 32px;
+  align-self: center;
 }
 
 .code {
-    padding-left: 0;
+  padding-left: 0;
+}
+
+.main-link {
+  color: #5e0d0d;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: stretch;
+  padding: 0 20px;
+}
+
+.footer-location-img {
+  width: 32px;
+  height: 32px;
+  color: #5e0d0d;
+  align-self: center
+}
+
+.footer-link {
+  align-self: center;
+  text-decoration: none;
+  color: #000000;
 }
