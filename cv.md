@@ -1,4 +1,4 @@
-![](/picture/photo.jpg)
+![Photo](/assets/img/photo.jpg)
 
 1. ## Samat Tulepbayev
 
