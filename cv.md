@@ -8,7 +8,7 @@
 
    **GITHUB** majustman
 
-   **Discord** majustman
+   **Discord** samatt90#0431
 
 3. **Goal** for now is to learn coding (backend, frontend) to become fullstack developer.
 
@@ -16,7 +16,7 @@
 
    **Advantage** I have a few experience in coding. It should make the process of learning easier for me.
 
-4. **Skills** Basic knoweldge in Golang, HTML, CSS, JS. GIT, Github.
+4. **Skills** Basic knoweldge in Golang, HTML, CSS, SCSS, JS, GIT, Github.
 
 5. **Example of code**
 
@@ -54,5 +54,7 @@
    [How to Create A Website: An HTML Tutorial and CSS Tutorial](https://www.udemy.com/course/html-tutorial/) (95% complete)
 
    [Web Development w/ Google’s Go (golang) Programming Language](https://www.udemy.com/course/go-programming-language/) (45% complete)
+
+   [RS School. JS Stage0](https://rs.school/js-stage0/)
 
 8. **English language** Intermediate level, IELTS 6.5 (expired)
